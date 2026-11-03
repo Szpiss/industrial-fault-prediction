@@ -1,0 +1,25 @@
+# Secrets and local environments
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+node_modules/
+dist/
+*.tsbuildinfo
+.DS_Store
+*.log
+backend/data/*
+!backend/data/.gitkeep
+output/
+.playwright-cli/
+ml/datasets/*
+!ml/datasets/README.md
+ml/models/*
+!ml/models/README.md
